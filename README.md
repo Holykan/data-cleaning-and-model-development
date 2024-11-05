@@ -1,23 +1,20 @@
 # data-cleaning-and-model-development
 
-Project Overview
+## Project Overview
+
 This project involves transforming and cleaning a dataset (test_task.csv) by applying several filtering and data processing steps using supplementary files (db_domains.csv, banned_domains.csv, banned_words.csv, and funding_data.csv). The final output is a cleaned dataset with specific features that improve its usability for further analysis.
 
-Purpose
+## Purpose
 This pipeline is designed to streamline data transformation processes for startup-related data. It removes irrelevant entries, filters data according to specific conditions, and enriches the core dataset with additional insights, such as total investments for each entity. The goal is to produce a refined dataset that meets defined criteria for quality and relevance.
 
-Data Files
+## Data Files
 - test_task.csv - The core dataset containing startup entities that need transformation.
 - db_domains.csv - Contains a list of domains and UUIDs of entities already present in our database.
 - banned_domains.csv - Contains a list of top-level domains that should be excluded from the final dataset.
 - banned_words.csv - Contains a list of words that we do not associate with startups.
 - funding_data.csv - Contains investment data for various entities at different stages.
 
-Prerequisites
-Python 3.x
-Libraries: pandas (Install via pip install pandas)
-
-Data Transformation Steps
+##Data Transformation Steps
 
 The following steps are executed to clean and enrich the test_task.csv dataset:
 

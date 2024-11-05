@@ -16,20 +16,17 @@ Data Files
 Prerequisites
 Python 3.x
 Libraries: pandas (Install via pip install pandas)
+
 Data Transformation Steps
+
 The following steps are executed to clean and enrich the test_task.csv dataset:
 
-Duplicate Removal: Remove duplicate entries based on uuid or website, keeping only one row per duplicate group.
-Missing Value Removal: Remove rows with missing values in essential columns: website, description, category, or location.
-Valuation Filter: Exclude entities with a valuation equal to or exceeding $1 billion.
-Database Filter: Exclude entities that match any uuid or website listed in db_domains.csv.
-Domain Exclusion: Remove rows where the top-level domain of the website matches any in banned_domains.csv.
-Keyword Exclusion: Exclude rows where description contains any terms listed in banned_words.csv.
-Category Extraction: Extract category names from the categories column (a list of dictionaries) and create a new column, categories_list, with these names.
-Location Extraction: Extract city, region, and country from the location dictionary and store them in separate columns.
-Investment Aggregation: Calculate total investment per entity from funding_data.csv using uuid as a key. Add this information as a new column (total_investment) in the core dataset.
-
-My add up files are:
--cleaned_test_task.csv (This is my resulting csv file after cleaning the original dataset)
--data_cleaning.ipynb (This is the notebook file i used for the data cleaning project)
--modeling_file.ipynb (This notebook file contains instructions and steps I used to build different models with the dataset)
+1. Duplicate Removal: Remove duplicate entries based on uuid or website, keeping only one row per duplicate group.
+2. Missing Value Removal: Remove rows with missing values in essential columns: website, description, category, or location.
+3. Valuation Filter: Exclude entities with a valuation equal to or exceeding $1 billion.
+4. Database Filter: Exclude entities that match any uuid or website listed in db_domains.csv.
+5. Domain Exclusion: Remove rows where the top-level domain of the website matches any in banned_domains.csv.
+6. Keyword Exclusion: Exclude rows where description contains any terms listed in banned_words.csv.
+7. Category Extraction: Extract category names from the categories column (a list of dictionaries) and create a new column, categories_list, with these names.
+8. Location Extraction: Extract city, region, and country from the location dictionary and store them in separate columns.
+9. Investment Aggregation: Calculate total investment per entity from funding_data.csv using uuid as a key. Add this information as a new column (total_investment) in the core dataset.

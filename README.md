@@ -7,7 +7,6 @@ Purpose
 This pipeline is designed to streamline data transformation processes for startup-related data. It removes irrelevant entries, filters data according to specific conditions, and enriches the core dataset with additional insights, such as total investments for each entity. The goal is to produce a refined dataset that meets defined criteria for quality and relevance.
 
 Data Files
-
 - test_task.csv - The core dataset containing startup entities that need transformation.
 - db_domains.csv - Contains a list of domains and UUIDs of entities already present in our database.
 - banned_domains.csv - Contains a list of top-level domains that should be excluded from the final dataset.

@@ -5,11 +5,11 @@ according to the criteria below using Python. Every transformation must be condu
 the previous one so they compound on each other, but generally the filtering order is not strict.
 
 There are 5 files:
--test_task.csv is the core dataset that you will be transforming.
--db_domains.csv contains the list of the domains and uuids of entities already in our database.
--banned_domains.csv contains the list of top-level domains we don't want in our database.
--banned_words.csv contains the list of words that we don't associate with startups.
--funding_data.csv contains the dataset with investments for various entities with stages.
+  -test_task.csv is the core dataset that you will be transforming.
+  -db_domains.csv contains the list of the domains and uuids of entities already in our database.
+  -banned_domains.csv contains the list of top-level domains we don't want in our database.
+  -banned_words.csv contains the list of words that we don't associate with startups.
+  -funding_data.csv contains the dataset with investments for various entities with stages.
 
 
 Below are the steps you have to do, using these files:

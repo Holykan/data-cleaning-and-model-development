@@ -28,6 +28,6 @@ The following steps are executed to clean and transform the test_task.csv datase
 9. Investment Aggregation: Calculate total investment per entity from funding_data.csv using uuid as a key. Add this information as a new column (total_investment) in the core dataset.
 
 ## Additional files
-data_cleaning.ipynb (The notebook file used for the data cleaning and transformation task)
-modeling_file.ipynb (The notebook file used for building the classification models. It also contains instructions on how the project was executed)
+- data_cleaning.ipynb (The notebook file used for the data cleaning and transformation task)
+- modeling_file.ipynb (The notebook file used for building the classification models. It also contains instructions on how the project was executed)
 

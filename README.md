@@ -14,7 +14,7 @@ This pipeline is designed to streamline data transformation processes for startu
 - banned_words.csv - Contains a list of words that we do not associate with startups.
 - funding_data.csv - Contains investment data for various entities at different stages.
 
-##Data Transformation Steps
+## Data Transformation Steps
 
 The following steps are executed to clean and enrich the test_task.csv dataset:
 

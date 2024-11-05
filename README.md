@@ -32,6 +32,6 @@ will have investments and not all investment data will be used, so don't worry a
 Save the resulting dataframe after all the steps into a csv
 
 My add up files are:
-cleaned_test_task.csv (This is my resulting csv file after cleaning the original dataset)
-data_cleaning.ipynb (This is the notebook file i used for the data cleaning project)
-modeling_file.ipynb (This notebook file contains instructions and steps I used to build different models with the dataset)
+-cleaned_test_task.csv (This is my resulting csv file after cleaning the original dataset)
+-data_cleaning.ipynb (This is the notebook file i used for the data cleaning project)
+-modeling_file.ipynb (This notebook file contains instructions and steps I used to build different models with the dataset)
